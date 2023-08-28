@@ -41,15 +41,15 @@ For each application you use with the NPM (NGINX Proxy manager) you should have 
    -o parent=eth0 DMZ
 ```
 
-## Setup Firewall
+### Setup Firewall
 Configure the following Port forwarding/NAT ports from your public IP to the NPM Server.
  - 21114 => 8080 TCP
- - 443 => 443 TCP  # If you want to use SSL
  - 21115 => 21115 TCP
  - 21116 => 21116 TCP/UDP
  - 21117 => 21117 TCP
  - 21118 => 21118 TCP
  - 21119 => 21119 TCP
+ - 443 => 443 TCP  # If you want to use SSL
  
 
 
