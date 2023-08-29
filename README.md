@@ -120,11 +120,17 @@ Configure Proxy Host
   - Forward Hostname / IP: 192.168.254.2
   - Forward Port: 21114
   - Block Common Exploits: Checked
-  - Optional: Configure SSL **DO NOT REQUIRE - CLIENT DOES NOT SUPPORT (YET?)**
+  - Optional: Configure SSL **DO NOT REQUIRE - Client needs to be able to communicate without ssl.**
 
 ### Setup RustDesk Server
 Connect to Server interface  http://rustdesk.example.com  or https:// if you have configured SSL for web interface.
 
+### Setup RustDesk Client
+Configure the client 
+- ID Server: rustdesk.example.com
+- Relay Server: rustdesk.example.com
+- API Server: http://rustdesk.example.com   (use HTTPS if you have configured SSL)
+- Key: {Server Key Here}
 
 ## 
 
