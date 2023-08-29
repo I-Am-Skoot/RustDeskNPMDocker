@@ -1,7 +1,7 @@
 # RustDesk Server Layered Security Model
 
 ## Layers
-- [RustDesk](https://www.rustdesk.com) Remote Support Tool
+- [RustDesk](https://github.com/rustdesk/rustdesk) Remote Support Tool
 - [NPM](https://nginxproxymanager.com/) Proxy Manager Tool
 - [Docker](https://www.docker.com) Containerization Tool
 - Firewall Tool 
